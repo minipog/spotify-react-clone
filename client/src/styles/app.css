@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000e1;
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+.btn-login {
+    align-self: center;
+}
+
+.ui.form input[type='search'],
+.ui.form input[type='search']:focus {
+    border: none;
+    background-color: #b0a9ca1c;
+    color: #ccc;
+}
+
+.song-area {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.song-item {
+    cursor: pointer;
+}
